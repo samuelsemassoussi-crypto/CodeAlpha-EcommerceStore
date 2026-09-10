@@ -1,4 +1,4 @@
-# 🛒 CodeAlpha Ecommerce Store
+#  CodeAlpha Ecommerce Store
 
 Boutique e-commerce full-stack moderne — HTML5 / CSS3 / JavaScript vanilla +
 Node.js / Express + MongoDB (Mongoose) + JWT.
