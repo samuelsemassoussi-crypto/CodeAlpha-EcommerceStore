@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mon Panier — CodeAlpha Ecommerce Store</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container navbar-inner">
+    <a href="index.html" class="logo">CodeAlpha<span>Store</span></a>
+    <div class="search-box">
+      <input type="text" id="navSearchInput" placeholder="Rechercher un produit..." />
+    </div>
+    <nav class="nav-actions desktop-only">
+      <span id="navGreeting" class="user-greeting hidden"></span>
+      <a href="login.html" id="navLoginLink" class="nav-link">Connexion</a>
+      <button id="navLogoutBtn" class="nav-link hidden">Déconnexion</button>
+      <a href="cart.html" class="cart-btn">🛒 <span class="cart-count">0</span></a>
+    </nav>
+    <button id="mobileMenuBtn" class="mobile-menu-btn">☰</button>
+  </div>
+  <nav id="mobileNavActions" class="nav-actions mobile-menu">
+    <a href="login.html" class="nav-link">Connexion</a>
+  </nav>
+</header>
+
+<main class="container">
+  <h1 class="page-title">Votre panier</h1>
+  <div class="cart-page">
+    <div id="cartList" class="cart-list"></div>
+
+    <div class="order-summary">
+      <h3>Résumé de la commande</h3>
+      <div class="summary-row"><span>Sous-total</span><span id="summarySubtotal">0.00 €</span></div>
+      <div class="summary-row"><span>Livraison</span><span>Gratuite</span></div>
+      <div class="summary-total"><span>Total</span><span id="summaryTotal">0.00 €</span></div>
+      <a href="index.html" class="btn btn-secondary btn-block" style="margin-top:16px;">Continuer les achats</a>
+      <button id="checkoutBtn" class="btn btn-primary btn-block" style="margin-top:10px;">Passer à la commande</button>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <p>Projet CodeAlpha — Full Stack Development Internship • CodeAlpha Ecommerce Store</p>
+</footer>
+
+<script src="js/common.js"></script>
+<script src="js/cart.js"></script>
+</body>
+</html>

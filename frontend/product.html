@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Détail produit — CodeAlpha Ecommerce Store</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container navbar-inner">
+    <a href="index.html" class="logo">CodeAlpha<span>Store</span></a>
+    <div class="search-box">
+      <input type="text" id="navSearchInput" placeholder="Rechercher un produit..." />
+    </div>
+    <nav class="nav-actions desktop-only">
+      <span id="navGreeting" class="user-greeting hidden"></span>
+      <a href="login.html" id="navLoginLink" class="nav-link">Connexion</a>
+      <button id="navLogoutBtn" class="nav-link hidden">Déconnexion</button>
+      <a href="cart.html" class="cart-btn">🛒 <span class="cart-count">0</span></a>
+    </nav>
+    <button id="mobileMenuBtn" class="mobile-menu-btn">☰</button>
+  </div>
+  <nav id="mobileNavActions" class="nav-actions mobile-menu">
+    <a href="login.html" class="nav-link">Connexion</a>
+    <a href="cart.html" class="nav-link">🛒 Panier (<span class="cart-count">0</span>)</a>
+  </nav>
+</header>
+
+<main class="container">
+  <div id="productDetailContainer">
+    <div class="state-message"><div class="spinner"></div>Chargement du produit...</div>
+  </div>
+
+  <section class="similar-section">
+    <h2 id="similarTitle" class="hidden">Produits similaires</h2>
+    <div id="similarGrid" class="products-grid"></div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>Projet CodeAlpha — Full Stack Development Internship • CodeAlpha Ecommerce Store</p>
+</footer>
+
+<script src="js/common.js"></script>
+<script src="js/product.js"></script>
+</body>
+</html>

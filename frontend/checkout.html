@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Commande — CodeAlpha Ecommerce Store</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container navbar-inner">
+    <a href="index.html" class="logo">CodeAlpha<span>Store</span></a>
+    <nav class="nav-actions desktop-only">
+      <span id="navGreeting" class="user-greeting hidden"></span>
+      <button id="navLogoutBtn" class="nav-link hidden">Déconnexion</button>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <h1 class="page-title">Finaliser la commande</h1>
+
+  <div class="checkout-page">
+    <div class="checkout-form-card">
+      <h2>Adresse de livraison</h2>
+      <form id="checkoutForm" class="auth-form">
+        <label>Nom complet</label>
+        <input type="text" id="fullName" required />
+
+        <div class="form-row">
+          <div>
+            <label>Ville</label>
+            <input type="text" id="city" required />
+          </div>
+          <div>
+            <label>Code postal</label>
+            <input type="text" id="postalCode" required />
+          </div>
+        </div>
+
+        <label>Adresse (rue)</label>
+        <input type="text" id="street" required />
+
+        <div class="form-row">
+          <div>
+            <label>Pays</label>
+            <input type="text" id="country" required />
+          </div>
+          <div>
+            <label>Téléphone</label>
+            <input type="tel" id="phone" required />
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-lg btn-block">Confirmer la commande</button>
+        <p class="auth-error" id="checkoutError"></p>
+      </form>
+    </div>
+
+    <div class="order-summary">
+      <h3>Votre commande</h3>
+      <div id="checkoutItems"></div>
+      <div class="summary-total"><span>Total</span><span id="checkoutTotal">0.00 €</span></div>
+    </div>
+  </div>
+</main>
+
+<script src="js/common.js"></script>
+<script src="js/checkout.js"></script>
+</body>
+</html>

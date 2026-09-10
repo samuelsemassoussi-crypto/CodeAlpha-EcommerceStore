@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Casque Audio Sans Fil",
+    "category": "Électronique",
+    "price": 59.99,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop",
+    "description": "Casque Bluetooth avec réduction de bruit active et 20h d'autonomie.",
+    "stock": 25
+  },
+  {
+    "id": 2,
+    "name": "Montre Connectée",
+    "category": "Électronique",
+    "price": 129.99,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop",
+    "description": "Suivi d'activité, notifications et suivi du sommeil.",
+    "stock": 15
+  },
+  {
+    "id": 3,
+    "name": "Sac à Dos Urbain",
+    "category": "Mode",
+    "price": 39.5,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=300&fit=crop",
+    "description": "Sac à dos résistant à l'eau avec compartiment pour ordinateur portable.",
+    "stock": 40
+  },
+  {
+    "id": 4,
+    "name": "Lampe de Bureau LED",
+    "category": "Maison",
+    "price": 24.0,
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400&h=300&fit=crop",
+    "description": "Lampe LED réglable avec port USB intégré.",
+    "stock": 60
+  },
+  {
+    "id": 5,
+    "name": "Chaussures de Running",
+    "category": "Sport",
+    "price": 74.99,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=300&fit=crop",
+    "description": "Chaussures légères et respirantes pour la course.",
+    "stock": 30
+  },
+  {
+    "id": 6,
+    "name": "Clavier Mécanique RGB",
+    "category": "Électronique",
+    "price": 89.0,
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400&h=300&fit=crop",
+    "description": "Clavier mécanique rétroéclairé avec switches bleus.",
+    "stock": 20
+  },
+  {
+    "id": 7,
+    "name": "Bouteille Isotherme",
+    "category": "Sport",
+    "price": 18.5,
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400&h=300&fit=crop",
+    "description": "Garde vos boissons froides 24h ou chaudes 12h.",
+    "stock": 80
+  },
+  {
+    "id": 8,
+    "name": "Plante d'Intérieur",
+    "category": "Maison",
+    "price": 15.0,
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=300&fit=crop",
+    "description": "Plante décorative facile d'entretien pour votre salon.",
+    "stock": 45
+  }
+]
